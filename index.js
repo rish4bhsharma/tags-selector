@@ -10,10 +10,11 @@ function(event){
     }
 });
 
-document.getElementsByTagName("button").addEventListener('click' , 
+document.getElementById("btn").addEventListener("click" , 
 function(){
-        addtag(this.value.trim() ); // to pass the clean value to function 
-        this.value = '' ; // to clear the input field ;
+        var tagname = document.getElementById("inputtag").value;
+        addtag(tagname); // to pass the clean value to function 
+        tagname = '' ; // to clear the input field ;
 });
 
 function addtag(newtag){
