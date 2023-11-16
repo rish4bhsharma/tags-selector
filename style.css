@@ -3,6 +3,9 @@
     padding: 0px;
 }
 body{
+    background-image: url(img1.jpeg);
+    height: 100vh;
+    font-family: 'Comfortaa', sans-serif;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -12,40 +15,68 @@ body{
 .maincontainer{
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     gap: 10px;
     height: 500px;
     width: 500px;
     /* background-color: antiquewhite; */
 }
 .taginputs{
+    color: azure;
+    padding-left: 20px;
+    padding-right: 20px;
     display: inline-flex;
     flex-direction: row;
     align-items : center ;
     justify-content : center;
     height: 10%;
     width: 100%;
-    /* background-color: beige; */
-    gap: 10px;
+    background-color: #ffffff10;
+    gap: 40px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 button{
+    
+    font-family: 'Comfortaa', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
     padding-inline: 10px;
     border-radius: 4px;
-    background-color: purple;
-    color: aliceblue;
+    background-color: rgb(30, 155, 166);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
 .tagContainer{
-    border: 1px solid black;
-    background-color : whitesmoke;
+
+    padding: 20px;
+    background-color : whitesmoke80; 
     height: 70%;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .tag {
-    background-color: #658aa3;
-    color: #fff;
+    font-weight: 1000;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-basis: 2px;
+    gap: 10px;
+    background-color: #03030350;
+    color: azure;
     padding: 4px 8px;
     border-radius: 4px;
     margin-right: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
-  
+
+  input{
+    border: none;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
