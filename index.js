@@ -14,7 +14,8 @@ document.getElementById("btn").addEventListener("click" ,
 function(){
         var tagname = document.getElementById("inputtag").value;
         addtag(tagname); // to pass the clean value to function 
-        tagname = '' ; // to clear the input field ;
+        // tagname = '' ; // to clear the input field ;
+        document.getElementById("inputtag").textContent = '' ;
 });
 
 function addtag(newtag){
