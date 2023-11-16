@@ -14,6 +14,7 @@ document.getElementById("btn").addEventListener("click" ,
 function(){
         var tagname = document.getElementById("inputtag").value;
         addtag(tagname); // to pass the clean value to function 
+     //   tagname = '' ; // to clear the input field ;
         document.getElementById("inputtag").value = '';
 });
 
@@ -33,7 +34,7 @@ function addtag(newtag){
         // adding remove button 
 
         const removeButton = document.createElement('span');
-        removeButton.innerHTML = '&times;';
+        removeButton.innerHTML = '&#10062;';
         removeButton.addEventListener('click', function() {
             tagbox.removeChild(newelement);
     });
